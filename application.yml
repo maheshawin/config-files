@@ -20,3 +20,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  datasource:
+    password: 1234
+    url: jdbc:mysql://localhost:3306/mybillbook?allowPublicKeyRetrieval=TRUE
+    username: root
