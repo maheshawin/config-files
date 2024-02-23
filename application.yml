@@ -14,13 +14,4 @@ management:
         include: "*"
         exclude: "env,beans"
         
-spring:        
-  jpa:
-    defer-datasource-initialization: true
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  datasource:
-    password: 1234
-    url: jdbc:mysql://localhost:3306/application?allowPublicKeyRetrieval=TRUE
-    username: root
+
